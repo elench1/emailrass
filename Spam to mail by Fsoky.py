@@ -36,30 +36,30 @@ def send_mail( event ):
 		result [ 'text' ] = 'x' + str( value )
 
 # Events
-Tlogin = Label( text = 'Login:', font = 'Consolas' )
+Tlogin = Label( text = 'Ваш Логин:', font = 'Consolas' )
 login = Entry( screen, font = 'Consolas' )
 
-Tpassword = Label( text = 'Password:', font = 'Consolas' )
+Tpassword = Label( text = 'ВАШ ПАРОЛЬ:', font = 'Consolas' )
 password = Entry( screen, font = 'Consolas', show = '*' )
 
-Turl = Label( text = 'URL:', font = 'Consolas' )
+Turl = Label( text = 'Адресс:', font = 'Consolas' )
 url = Entry( screen, font = 'Consolas' )
 
 Ttoaddr = Label( text = 'Кому:', font = 'Consolas' )
 toaddr = Entry( screen, font = 'Consolas' )
 
-Ttopic = Label( text = 'Topic message:', font = 'Consolas' )
+Ttopic = Label( text = 'Тема письма:', font = 'Consolas' )
 topic = Entry( screen, font = 'Consolas' )
 
-Tmess = Label( text = 'Message:', font = 'Consolas' )
+Tmess = Label( text = 'Текст письма:', font = 'Consolas' )
 mess = Entry( screen, font = 'Consolas' )
 
-Tnumber = Label( text = 'Number of message:', font = 'Consolas' )
+Tnumber = Label( text = 'Количество писем :', font = 'Consolas' )
 number = Entry( screen, font = 'Consolas' )
 
-enter = Button( text = 'Send', font = 'Consolas', width = 18 )
+enter = Button( text = 'Отправить', font = 'Consolas', width = 18 )
 
-result = Label( text = 'Result:', font = 'Consolas' )
+result = Label( text = 'Результат:', font = 'Consolas' )
 
 # Packers
 Tlogin.grid( row = 0, column = 0, sticky = W, padx = 1, pady = 1 )
